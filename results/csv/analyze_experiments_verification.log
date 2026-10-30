@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\pietr\Desktop\fatigue_rl_agent\src\analyze_experiments.py", line 6, in <module>
+    import matplotlib
+ModuleNotFoundError: No module named 'matplotlib'

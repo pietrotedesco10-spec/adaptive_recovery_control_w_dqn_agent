@@ -1,0 +1,59 @@
+
+=== baseline3_work60_recovery40, seed=4, attempt=1/2 ===
+WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+default
+
+=== baseline3_work60_recovery40, seed=4, attempt=2/2 ===
+WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+default
+Error during finding element with id=1777452997646 (read from preferences) inside Main - Agent Type of rl_agent_multi_op - Model (mode MODE_BUILD)
+... (5 total)
+Error during finding element with id=1777388404910 (read from preferences) inside Operator - Agent Type of rl_agent_multi_op - Model (mode MODE_BUILD)
+... (2 total)
+java.util.UnknownFormatConversionException: Conversion = 'F'
+	at java.base/java.util.Formatter$FormatSpecifier.conversion(Formatter.java:2855)
+	at java.base/java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2891)
+	at java.base/java.util.Formatter.parse(Formatter.java:2747)
+	at java.base/java.util.Formatter.format(Formatter.java:2671)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at com.anylogic.engine.UtilitiesError.formatSafe(Unknown Source)
+	at com.anylogic.util.ErrorHandlingUtils.log(SourceFile:96)
+	at com.anylogic.util.ErrorHandlingUtils$LoggerImpl.log(SourceFile:43)
+	at com.anylogic.util.Logger.info(SourceFile:163)
+	at com.anylogic.graphics3d.browser.AnyLogicCefRenderClient$f.run(SourceFile:132)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.util.UnknownFormatConversionException: Conversion = 'F'
+	at java.base/java.util.Formatter$FormatSpecifier.conversion(Formatter.java:2855)
+	at java.base/java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2891)
+	at java.base/java.util.Formatter.parse(Formatter.java:2747)
+	at java.base/java.util.Formatter.format(Formatter.java:2671)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at com.anylogic.engine.UtilitiesError.formatSafe(Unknown Source)
+	at com.anylogic.util.ErrorHandlingUtils.log(SourceFile:96)
+	at com.anylogic.util.ErrorHandlingUtils$LoggerImpl.log(SourceFile:43)
+	at com.anylogic.util.Logger.info(SourceFile:163)
+	at com.anylogic.graphics3d.browser.AnyLogicCefRenderClient$f.run(SourceFile:132)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.util.UnknownFormatConversionException: Conversion = 'F'
+	at java.base/java.util.Formatter$FormatSpecifier.conversion(Formatter.java:2855)
+	at java.base/java.util.Formatter$FormatSpecifier.<init>(Formatter.java:2891)
+	at java.base/java.util.Formatter.parse(Formatter.java:2747)
+	at java.base/java.util.Formatter.format(Formatter.java:2671)
+	at java.base/java.util.Formatter.format(Formatter.java:2625)
+	at java.base/java.lang.String.format(String.java:4145)
+	at com.anylogic.engine.UtilitiesError.formatSafe(Unknown Source)
+	at com.anylogic.util.ErrorHandlingUtils.log(SourceFile:96)
+	at com.anylogic.util.ErrorHandlingUtils$LoggerImpl.log(SourceFile:43)
+	at com.anylogic.util.Logger.info(SourceFile:163)
+	at com.anylogic.graphics3d.browser.AnyLogicCefRenderClient$f.run(SourceFile:132)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Compile "rl_agent_multi_op"
+Update indicators for "rl_agent_multi_op"

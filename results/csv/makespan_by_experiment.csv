@@ -1,0 +1,5 @@
+scenario,makespan_min,makespan_min_std,kind
+No Recovery Baseline,648.891614,5.0305850735727535,baseline
+Threshold Recovery Baseline,571.384524,5.983035327867813,baseline
+Work 60 Recovery 40 Baseline,559.2569359999999,4.321438937024635,baseline
+DQN Adaptive Recovery,546.0436619999999,4.140978109187659,dqn
